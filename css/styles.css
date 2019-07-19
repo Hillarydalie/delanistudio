@@ -18,7 +18,7 @@ body {
     border-radius: 0.3rem;
 }
 
-.container-fluid {
+#intro-section {
 	background-image: url(../images/backgrounds/h_img.jpg);
 	background-size: cover;
 	width: 100%;
