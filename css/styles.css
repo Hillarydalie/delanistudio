@@ -59,3 +59,27 @@ body {
     border-radius: 0.25rem !important;
     padding: 1%;
 }
+
+#services {
+	background-image: url(../images/backgrounds/s_image.jpg);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	color: white;
+}
+
+div#about-us h3 {
+    padding-top: 1%;
+}
+
+div#about-us p {
+    padding-bottom: 5%;
+}
+
+div#services h3 {
+    padding-top: 7%;
+}
+
+div#services p {
+    padding-bottom: 10%;
+}
