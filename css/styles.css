@@ -83,3 +83,20 @@ div#services h3 {
 div#services p {
     padding-bottom: 10%;
 }
+
+#design {
+	display: none;
+}
+
+div#structure {
+    padding: 6%;
+    text-align: center;
+}
+
+#what-we-do-title h3 {
+	text-align: center;
+}
+
+div#what-we-do-title {
+    padding-top: 2%;
+}
