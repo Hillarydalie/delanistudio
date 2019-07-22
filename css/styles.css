@@ -17,6 +17,31 @@ h6 {
     font-family: 'Spectral';
 }
 
+input#name {
+    color: white;
+}
+
+input#name::placeholder{
+    color: white;
+}
+
+input#email {
+    color: white;
+}
+
+
+input#email::placeholder{
+    color: white;
+}
+
+textarea#message {
+    color: white;
+}
+
+textarea#message::placeholder{
+    color: white;
+}
+
 .col-md-3 {
     position: relative;
     width: 100%;
