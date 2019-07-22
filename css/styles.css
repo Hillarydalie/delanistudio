@@ -13,6 +13,10 @@ body {
 	overflow-x: hidden;
 }
 
+h6 {
+    font-family: 'Spectral';
+}
+
 .col-md-3 {
     position: relative;
     width: 100%;
