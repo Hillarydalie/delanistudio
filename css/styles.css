@@ -10,6 +10,7 @@ body {
 	font-family: 'Shadows Into Light', cursive;
 	font-family: 'Spectral', serif;
 	text-align: center;
+	overflow-x: hidden;
 }
 
 .col-md-3 {
@@ -41,7 +42,7 @@ body {
 
 #logo {
     text-align: center !important;
-    padding-top: 18%;
+    padding-top: 16%;
 }
 
 #karibu {
@@ -51,8 +52,8 @@ body {
 
 #mouse-click {
     text-align: center !important;
-    padding-top: 7%;
-    padding-bottom: 2%;
+    padding-top: 10%;
+    padding-bottom: 1%;
 }
 
 .rounded {
@@ -84,7 +85,15 @@ div#services p {
     padding-bottom: 10%;
 }
 
-#design {
+#design-text {
+	display: none;
+}
+
+#development-text {
+	display: none;
+}
+
+#management-text {
 	display: none;
 }
 
@@ -99,4 +108,114 @@ div#structure {
 
 div#what-we-do-title {
     padding-top: 2%;
+}
+
+div#portfolio h3 {
+    padding: 2%;
+}
+
+.portfolio h1{
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top:3%;
+}
+
+.portfolio img{
+width:100%;
+height: auto;
+}
+
+.portoverlay1,.portoverlay2, .portoverlay3,.portoverlay4,.portoverlay5,.portoverlay6,.portoverlay7,.portoverlay8{
+  	width:95%;
+    color:white;
+    height:91%;
+    position: absolute;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display:none;
+
+}
+
+.port1{
+  padding-top:3%;
+}
+
+img.w-100 {
+  padding-bottom: 3%;
+}
+.overlaycontent,.overlaycontent1,.overlaycontent2,.overlaycontent3,.overlaycontent4,.overlaycontent5,.overlaycontent6,.overlaycontent7{
+
+ width:90%;
+ margin-top: 35%;
+ margin-left: 5%;
+ height: 90%;
+ position: relative;
+}
+
+.portoverlay1 h1,.portoverlay2 h1,.portoverlay3 h1,.portoverlay4 h1,.portoverlay5 h1,.portoverlay6 h1,.portoverlay7 h1,.portoverlay8 h1{
+    padding-top: 3%;
+    text-align: left;
+    font-weight: 800px;
+    font-size: 30px
+
+}
+
+.contact-us {
+	background-image: url(../images/backgrounds/c_image.jpg);
+	background-size: cover;
+	width: 100%;
+	color: white;
+}
+
+.contact-us h3 {
+	padding: 2%;
+}
+
+button#submit-button {
+    border: solid;
+    border-style: double;
+    border-color: white;
+    background-color: white;
+}
+
+.row.button {
+    padding-bottom: 1%;
+}
+
+h1#contact-header {
+    color: white;
+    padding: 2%;
+}
+
+div#footer {
+    padding: 2%;
+}
+
+input#contact-email {
+    color: white;
+}
+
+input#contact-name {
+    color: white;
+}
+
+textarea#contact-message {
+    color: white;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0;
+    color: white;
+    border: 1px solid #7f848a;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: #4e555b;
+}
+
+.container-full.contact-us.bg-transparent h1 {
+    padding: 2%;
 }
